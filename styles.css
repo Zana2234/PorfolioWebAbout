@@ -6,6 +6,9 @@ body {
 :root {
   --default-font: Rubik, sans-serif;
   --primary-color: #535a3b;
+  --secondary-color: #a7b99e;
+  --third-color: #cedcc3;
+  --forth-color: #eff7d3;
 }
 .about-section {
   padding: 160px 20px;
@@ -44,9 +47,25 @@ p {
   height: auto;
 }
 
+.content-container {
+  padding: 160px 20px;
+}
+
+.content h1{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
 @media (min-width: 992px) {
   .col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
   }
+}
+.container,
+.container-lg,
+.container-md,
+.container-sm {
+  max-width: 960px;
 }
