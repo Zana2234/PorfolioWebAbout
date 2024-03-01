@@ -57,6 +57,11 @@ p {
   text-align: center;
 }
 
+
+
+.content {
+    margin: 30px;}
+
 @media (min-width: 992px) {
   .col-lg-6 {
     flex: 0 0 auto;
